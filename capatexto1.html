@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+  <head>
+    <title>Página de ejemplo</title>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" type="text/css" href="css/capatexto.css" />
+  </head>
+  <body>
+    <center>
+      <h1>TABLA PERIODICA</h1>
+      <table border="2" id="tabla">
+          <tr><!--Primera fila -->
+            <td>
+              <div id="capa1"><p>1</p><p>H</p>
+              <a href="javascript:plegardesplegar ('capasuperior');">Hidrogeno</a></div>
+              <div class="invisible" id="capasuperior">
+                <div id="texto">
+                  Agua
+                  <br>peso atomico 40400</br>
+                </div>
+              </div>  
+            </td>
+            <td colspan="16"></td>
+            <td>
+              <div id="capa2"><p>2</p><p>He</p>
+              <a href="javascript:plegardesplegar ('capasuperior1');">Helio</a></div>
+              <div class="invisible" id="capasuperior1">
+                <div id="texto">
+                  Helio
+                  <br>peso atomico 40400</br>
+                </div>
+              </div>  
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div id="capa2"><p>3</p><p>Li</p>
+              <a href="javascript:plegardesplegar ('capasuperior1');">Litio</a></div>
+              <div class="invisible" id="capasuperior">
+                <div id="texto">
+                  Agua
+                  <br>peso atomico 40400</br>
+                </div>
+              </div>  
+            </td>
+            <td>
+              <div id="capa2"><p>4</p><p>Be</p>
+              <a href="javascript:plegardesplegar ('capasuperior1');">Berilio</a></div>
+              <div class="invisible" id="capasuperior">
+                <div id="texto">
+                  Agua
+                  <br>peso atomico 40400</br>
+                </div>
+              </div>  
+            </td>
+            <td colspan="10"></td>
+            <td>
+              <div id="capa2"><p>5</p><p>B</p>
+              <a href="javascript:plegardesplegar ('capasuperior1');">Boro</a></div>
+              <div class="invisible" id="capasuperior">
+                <div id="texto">
+                  Agua
+                  <br>peso atomico 40400</br>
+                </div>
+              </div>  
+            </td>
+          </tr>
+<td>otro</td>
+<td>otro</td>
+<td>otro</td>
+<td>
+<div id="capa1"><p>Este es un texto de ejemplo</p>
+<a href="javascript:plegardesplegar ('capasuperior1');">ABRIR [X]</a></div>
+
+<div class="invisible" id="capasuperior1">
+<div id="texto">
+Aquí iría el contenido que queremos
+<img id="img "src="img/imagen.jpg">
+</div>
+</div>
+</td>
+<td>otro</td>
+</tr>
+</table>
+</center>
+  </body>
+<script src="js/capa.js"></script>
+</html>
